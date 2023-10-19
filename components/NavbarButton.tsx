@@ -5,12 +5,15 @@ const NavbarButton = () => {
   return (
     <div className="flex-none md:hidden">
       <details className="dropdown dropdown-bottom dropdown-end">
-        <summary tabIndex={0} className="btn btn-circle btn-ghost">
-          <svg
+        <summary
+          tabIndex={0}
+          className="btn btn-ghost btn-circle bg-transparent hover:bg-white/20 active:bg-black/5 transition-all"
+        >
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            className="inline-block w-5 h-5 stroke-current"
+            className="inline-block w-5 h-5 jcurrent"
           >
             <path
               strokeLinecap="round"
@@ -18,6 +21,31 @@ const NavbarButton = () => {
               strokeWidth="2"
               d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
             ></path>
+          </svg> */}
+          <svg
+            fill="#e5deed"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-4 -4 24 24"
+            className="inline-block w-8 h-8 stroke-current"
+            stroke="#e5deed"
+            strokeWidth="0.384"
+            transform="rotate(0)"
+          >
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              stroke="#CCCCCC"
+              strokeWidth="0.192"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              {" "}
+              <path
+                className="cls-1"
+                d="M8,6.5A1.5,1.5,0,1,1,6.5,8,1.5,1.5,0,0,1,8,6.5ZM.5,8A1.5,1.5,0,1,0,2,6.5,1.5,1.5,0,0,0,.5,8Zm12,0A1.5,1.5,0,1,0,14,6.5,1.5,1.5,0,0,0,12.5,8Z"
+              ></path>{" "}
+            </g>
           </svg>
         </summary>
         <ul

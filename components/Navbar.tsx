@@ -4,10 +4,13 @@ import { NavbarLinks } from "@/constants";
 
 const Navbar = () => {
   return (
-    <div className="max-container px-5 py-5">
+    <div className="max-container w-full px-5 py-5 absolute top-0 left-1/2 -translate-x-1/2 z-50 ">
       <div className="navbar flex items-center justify-between">
         <div>
-          <Link href="/" className="btn btn-ghost normal-case text-xl">
+          <Link
+            href="/"
+            className="btn btn-ghost normal-case text-xl text-white"
+          >
             TastyBites
           </Link>
         </div>
@@ -16,7 +19,7 @@ const Navbar = () => {
           {NavbarLinks.map((link, index) => (
             <li key={index}>
               <Link
-                className="capitalize font-medium text-lg text-secondary hover:text-opacity-80"
+                className="capitalize font-medium text-lg hover:text-opacity-80 text-white"
                 href={link.href}
               >
                 {link.name}
