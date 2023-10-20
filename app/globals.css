@@ -11,3 +11,7 @@
 .max-container {
   @apply mx-auto max-w-[1440px];
 }
+
+.hero-img-section {
+  @apply w-[670px] h-[1500px] xl:h-[670px] xl:rounded-full bg-primary absolute rotate-45 xl:rotate-0 -translate-x-20 translate-y-52 xl:translate-x-0 xl:translate-y-0 -top-96 xl:-top-52 xl:-right-48;
+}
