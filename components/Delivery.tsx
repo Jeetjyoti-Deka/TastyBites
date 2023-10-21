@@ -3,11 +3,11 @@ import Image from "next/image";
 const Delivery = () => {
   return (
     <div className="max-container mb-20 px-2 2xs:px-10 sm:px-20 2xs:flex justify-center">
-      <div className="lg:ml-36 bg-delivery bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center 2xs:bg-none h-[300px] 2xs:h-auto">
+      <div className="lg:ml-36 bg-delivery bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center 2xs:items-stretch 2xs:bg-none h-[300px] 2xs:h-auto">
         <h2 className="text-lg text-secondary bg-white backdrop-blur-lg py-2 2xs:py-0 text-center 2xs:text-left leading-5 sm:text-2xl md:text-4xl font-semibold mb-4 md:mb-10 lg:max-w-lg xs:mt-10 lg:mt-20">
           Prompt and Punctual: Our Commitment to On-Time Delivery
         </h2>
-        <button className="btn 2xs:bg-none bg-white btn-sm sm:btn-md btn-outline btn-primary rounded-full px-3 sm:px-7 sm:tracking-wider whitespace-nowrap">
+        <button className="btn 2xs:bg-none bg-white btn-sm sm:btn-md btn-outline btn-primary rounded-full px-3 sm:px-7 sm:tracking-wider whitespace-nowrap active:bg-primary active:text-accent transition-all">
           Call to order
         </button>
       </div>
