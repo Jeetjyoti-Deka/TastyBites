@@ -1,5 +1,7 @@
+import { Foods } from "@/constants";
 import MenuCard from "./MenuCard";
 import MenuTable from "./MenuTable";
+import React from "react";
 
 const Menu = () => {
   return (
@@ -10,11 +12,11 @@ const Menu = () => {
         </h3>
       </div>
       <div className="hidden sm:flex flex-wrap justify-center gap-10 mx-auto px-12">
-        {Array(8)
-          .fill(1)
-          .map((item) => (
-            <MenuCard />
-          ))}
+        {Foods.map((item, index) => (
+          <React.Fragment key={index}>
+            <MenuCard food={item} />
+          </React.Fragment>
+        ))}
       </div>
 
       <div className="block sm:hidden">
