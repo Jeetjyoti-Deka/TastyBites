@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MenuCard = () => {
   return (
-    <div className="min-w-[100px] max-w-[15rem] bg-gray-200 bg-opacity-80 flex flex-col items-center gap-4 px-5 pb-7 pt-4 rounded-2xl">
+    <div className="min-w-[200px] max-w-[15rem] bg-gray-200 bg-opacity-80 flex flex-col items-center gap-4 px-5 pb-7 pt-4 rounded-2xl">
       <div>
         <Image
           src="/menu-card-img.png"
