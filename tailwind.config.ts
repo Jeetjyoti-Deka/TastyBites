@@ -31,6 +31,7 @@ const config: Config = {
           success: "#6bdb98",
           warning: "#f7d84a",
           error: "#ef4e76",
+          blur: "#e5deed",
         },
       },
     ],
@@ -38,5 +39,3 @@ const config: Config = {
   plugins: [require("daisyui")],
 };
 export default config;
-
-// #e5deed
