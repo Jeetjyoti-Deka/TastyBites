@@ -1,7 +1,7 @@
 const Details = () => {
   return (
-    <div className="max-container">
-      <div className="flex flex-col gap-4 text-center md:text-left md:flex-row justify-center bg-white px-10 py-10 max-w-[60rem] mx-auto shadow-2xl">
+    <div className="max-container py-20">
+      <div className="flex flex-col gap-4 text-center md:text-left md:flex-row justify-center bg-white px-10 py-10 max-w-[60rem] mx-auto shadow-xl">
         <div className="flex-1 md:self-center">
           <h3 className="mb-2">
             <span className="font-semibold text-2xl">Melbourne</span>,{" "}

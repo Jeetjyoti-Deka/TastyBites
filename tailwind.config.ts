@@ -10,6 +10,11 @@ const config: Config = {
     extend: {
       screens: {
         custom: "868px",
+        xs: "570px",
+        "2xs": "390px",
+      },
+      backgroundImage: {
+        delivery: "url('/delivery-bg.png')",
       },
     },
   },
@@ -21,7 +26,7 @@ const config: Config = {
           secondary: "#2A293B",
           accent: "#629E5F",
           neutral: "#27303a",
-          "base-100": "#e5deed",
+          "base-100": "#fff",
           info: "#6199d1",
           success: "#6bdb98",
           warning: "#f7d84a",
@@ -33,3 +38,5 @@ const config: Config = {
   plugins: [require("daisyui")],
 };
 export default config;
+
+// #e5deed
