@@ -28,7 +28,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="btn btn-outline btn-accent rounded-full px-7 tracking-wider hidden md:block">
+        <button className="btn btn-outline btn-white border-spacing-4 rounded-full px-7 tracking-wider hidden md:block">
           123 456 789
         </button>
         <NavbarButton />
