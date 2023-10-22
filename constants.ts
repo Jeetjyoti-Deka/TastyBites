@@ -1,15 +1,15 @@
 export const NavbarLinks = [
   {
     name: "about",
-    href: "/",
+    href: "#about",
   },
   {
     name: "menu",
-    href: "/",
+    href: "#menu",
   },
   {
     name: "delivery",
-    href: "/",
+    href: "#delivery",
   },
 ];
 

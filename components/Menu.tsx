@@ -5,7 +5,7 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <div className="max-container mb-40">
+    <div id="menu" className="max-container mb-40 scroll-mt-10">
       <div className="flex items-center justify-center">
         <h3 className="text-center text-2xl md:text-5xl py-2 px-6 rounded-md text-primary bg-secondary font-semibold mb-6 md:mb-12">
           Menu
