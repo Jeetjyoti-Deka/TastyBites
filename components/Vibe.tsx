@@ -3,7 +3,7 @@ import Image from "next/image";
 const Vibe = () => {
   return (
     <div className="max-container ">
-      <div className="w-full h-[950px] bg-accent mx-auto rounded-lg relative p-4 mb-40 overflow-hidden">
+      <div className="hidden lg:block w-full h-[950px] bg-accent mx-auto rounded-lg relative p-4 mb-40 overflow-hidden">
         <div className="group w-[30%] h-[900px] absolute overflow-hidden rounded-lg">
           <Image
             src="/photos-img-1.jpg"
@@ -48,6 +48,53 @@ const Vibe = () => {
             Contact Us
           </button>
         </div>
+      </div>
+
+      <div className="mb-40 bg-accent lg:hidden flex flex-col items-center">
+        <div className="hide-scrollbar flex h-[500px] w-full items-start justify-start gap-8 overflow-x-auto p-4">
+          <div className="relative min-w-[600px] rounded-lg overflow-hidden">
+            <Image
+              src="/photos-sm-img-1.jpg"
+              alt="vibe-photo"
+              width={1000}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+              Intimate Ambiance
+            </p>
+          </div>
+          <div className="relative min-w-[550px] rounded-lg overflow-hidden">
+            <Image
+              src="/photos-img-2.jpg"
+              alt="vibe-photo"
+              width={1000}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+              Elegant Cuisine
+            </p>
+          </div>
+          <div className="relative min-w-[600px] rounded-lg overflow-hidden">
+            <Image
+              src="/photos-img-3.jpg"
+              alt="vibe-photo"
+              width={1000}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+              Five-Star
+            </p>
+          </div>
+        </div>
+        <p className="text-white text-center text-3xl font-semibold tracking-wide pb-4">
+          Excuistite cuisine and impeccable service
+        </p>
+        <button className="btn btn-outline btn-primary mt-6 mb-10">
+          Contact Us
+        </button>
       </div>
     </div>
   );

@@ -15,3 +15,14 @@
 .hero-img-section {
   @apply w-[670px] h-[1500px] xl:h-[670px] xl:rounded-full bg-primary absolute rotate-45 xl:rotate-0 -translate-x-20 translate-y-52 xl:translate-x-0 xl:translate-y-0 -top-96 xl:-top-52 xl:-right-48;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
