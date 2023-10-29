@@ -1,8 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Modal from "./Modal";
-import { showModal } from "@/utils/helpers";
+import ModalButton from "./ModalButton";
 
 const Vibe = () => {
   return (
@@ -49,12 +47,12 @@ const Vibe = () => {
             Excuistite cuisine and impeccable service
           </p>
           <Modal randomId="1" />
-          <button
+          <ModalButton
+            randomId="1"
             className="btn btn-outline btn-secondary border-2 text-md mt-6 active:text-white active:border-none transition-all"
-            onClick={() => showModal("1")}
           >
             Contact Us
-          </button>
+          </ModalButton>
         </div>
       </div>
 
@@ -101,12 +99,12 @@ const Vibe = () => {
           Excuistite cuisine and impeccable service
         </p>
         <Modal randomId="2" />
-        <button
+        <ModalButton
+          randomId="2"
           className="btn btn-outline btn-secondary border-2 text-md mt-6 mb-10 active:bg-secondary active:text-white active:border-none transition-all"
-          onClick={() => showModal("2")}
         >
           Contact Us
-        </button>
+        </ModalButton>
       </div>
     </div>
   );

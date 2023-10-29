@@ -1,6 +1,5 @@
 import { Foods } from "@/constants";
 import MenuCard from "./MenuCard";
-import MenuTable from "./MenuTable";
 import React from "react";
 
 const Menu = () => {

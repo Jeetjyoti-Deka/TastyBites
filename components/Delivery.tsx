@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Modal from "./Modal";
+import ModalButton from "./ModalButton";
 
 const Delivery = () => {
   return (
@@ -10,9 +12,13 @@ const Delivery = () => {
         <h2 className="text-lg text-secondary bg-white backdrop-blur-lg py-2 2xs:py-0 text-center 2xs:text-left leading-5 sm:text-2xl md:text-4xl font-semibold mb-4 md:mb-10 lg:max-w-lg xs:mt-10 lg:mt-20">
           Prompt and Punctual: Our Commitment to On-Time Delivery
         </h2>
-        <button className="btn 2xs:bg-none bg-white btn-sm sm:btn-md btn-outline btn-primary rounded-full px-3 sm:px-7 sm:tracking-wider whitespace-nowrap active:bg-primary active:text-accent transition-all">
-          Call to order
-        </button>
+        <Modal randomId="4" />
+        <ModalButton
+          randomId="4"
+          className="btn 2xs:bg-none bg-white btn-sm sm:btn-md btn-outline btn-primary rounded-full px-3 sm:px-7 sm:tracking-wider whitespace-nowrap active:bg-primary active:text-accent transition-all"
+        >
+          Call to Order
+        </ModalButton>
       </div>
       <div className="hidden 2xs:block">
         <Image
