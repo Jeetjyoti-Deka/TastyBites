@@ -17,10 +17,6 @@ const Menu = () => {
           </React.Fragment>
         ))}
       </div>
-
-      {/* <div className="block sm:hidden">
-        <MenuTable />
-      </div> */}
     </div>
   );
 };

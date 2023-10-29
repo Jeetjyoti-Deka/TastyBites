@@ -1,6 +1,6 @@
 "use client";
 
-import { showModal } from "@/utils/helpers";
+import { showModal } from "@/utils/helpers.js";
 
 const ModalButton = ({
   className,
