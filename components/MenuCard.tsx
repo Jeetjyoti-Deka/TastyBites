@@ -1,5 +1,9 @@
+"use client";
+
 import { Foods } from "@/constants";
 import Image from "next/image";
+import Modal from "./Modal";
+import { showModal } from "@/utils/helpers";
 
 type MenuCardProps = {
   food: (typeof Foods)[number];
@@ -21,7 +25,11 @@ const MenuCard = ({ food }: MenuCardProps) => {
       </h2>
       <div className="flex justify-between items-center w-full">
         <p className="font-semibold text-secondary">$ {food.price}</p>
-        <button className="w-[45px] h-[45px] rounded-full bg-accent flex items-center justify-center active:scale-90 active:bg-primary transition-all">
+        <Modal randomId="3" />
+        <button
+          className="w-[45px] h-[45px] rounded-full bg-accent flex items-center justify-center active:scale-90 active:bg-primary transition-all"
+          onClick={() => showModal("3")}
+        >
           <Image src="/phone-icon.png" alt="phone" width={18} height={19} />
         </button>
       </div>
