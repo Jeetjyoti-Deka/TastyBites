@@ -1,6 +1,9 @@
 const Details = () => {
   return (
-    <div id="about" className="max-container pb-20 xs:py-20 mb-32 scroll-mt-10">
+    <div
+      id="about"
+      className="max-container pb-20 xs:py-20 sm:mb-32 scroll-mt-10"
+    >
       <div className="flex flex-col gap-4 text-center md:text-left md:flex-row justify-center bg-white px-10 py-10 max-w-[60rem] mx-auto shadow-xl">
         <div className="flex-1 md:self-center">
           <h3 className="mb-2">

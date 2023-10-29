@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <Vibe />
       <Menu />
       <Delivery />
       <Details />
-      <Vibe />
     </div>
   );
 }

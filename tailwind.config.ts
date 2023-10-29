@@ -15,6 +15,7 @@ const config: Config = {
       },
       backgroundImage: {
         delivery: "url('/delivery-bg.png')",
+        burger: "url('/burger-img.png')",
       },
     },
   },

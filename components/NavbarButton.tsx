@@ -3,32 +3,20 @@ import Link from "next/link";
 
 const NavbarButton = () => {
   return (
-    <div className="flex-none md:hidden">
+    <div className="flex-none sm:hidden">
       <details className="dropdown dropdown-bottom dropdown-end">
         <summary
           tabIndex={0}
           className="btn btn-ghost btn-circle bg-transparent hover:bg-white/20 active:bg-black/5 transition-all"
         >
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            className="inline-block w-5 h-5 jcurrent"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-            ></path>
-          </svg> */}
+          {/* e5deed */}
           <svg
-            fill="#e5deed"
+            fill="#2A293B"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="-4 -4 24 24"
             className="inline-block w-8 h-8 stroke-current"
             stroke="#e5deed"
-            strokeWidth="0.384"
+            strokeWidth="0.9"
             transform="rotate(0)"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>

@@ -17,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
-      <body className={`${inter.className} relative overflow-x-hidden`}>
+    <html lang="en" className="!scroll-smooth hide-scrollbar">
+      <body
+        className={`${inter.className} relative overflow-x-hidden hide-scrollbar`}
+      >
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />

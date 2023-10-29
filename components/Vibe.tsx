@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Vibe = () => {
   return (
-    <div className="max-container ">
+    <div className="max-container">
       <div className="hidden lg:block w-full h-[950px] bg-accent mx-auto rounded-lg relative p-4 mb-40 overflow-hidden">
         <div className="group w-[30%] h-[900px] absolute overflow-hidden rounded-lg">
           <Image
@@ -12,7 +12,7 @@ const Vibe = () => {
             height={500}
             className="w-full h-full object-cover rounded-lg hover:scale-110 transition-all"
           />
-          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed">
             Intimate Ambiance
           </p>
         </div>
@@ -24,7 +24,7 @@ const Vibe = () => {
             height={500}
             className="w-full h-full object-cover rounded-lg hover:scale-110 transition-all"
           />
-          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed">
             Five-Star
           </p>
         </div>
@@ -36,7 +36,7 @@ const Vibe = () => {
             height={900}
             className="w-full h-full object-cover rounded-lg hover:scale-110 transition-all"
           />
-          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+          <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed">
             Elegant Cuisine
           </p>
         </div>
@@ -44,13 +44,13 @@ const Vibe = () => {
           <p className="text-5xl font-semibold text-white leading-[50px]">
             Excuistite cuisine and impeccable service
           </p>
-          <button className="btn btn-outline btn-primary mt-6">
+          <button className="btn btn-outline btn-secondary border-2 text-md mt-6 active:text-white active:border-none transition-all">
             Contact Us
           </button>
         </div>
       </div>
 
-      <div className="mb-40 bg-accent lg:hidden flex flex-col items-center">
+      <div className="mb-28 bg-accent lg:hidden flex flex-col items-center">
         <div className="hide-scrollbar flex h-[500px] w-full items-start justify-start gap-8 overflow-x-auto p-4">
           <div className="relative min-w-[600px] rounded-lg overflow-hidden">
             <Image
@@ -60,7 +60,7 @@ const Vibe = () => {
               height={500}
               className="w-full h-full object-cover"
             />
-            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed transition-all">
               Intimate Ambiance
             </p>
           </div>
@@ -84,7 +84,7 @@ const Vibe = () => {
               height={500}
               className="w-full h-full object-cover"
             />
-            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed group-hover:scale-105 transition-all">
+            <p className="absolute bottom-4 right-4 text-black/60 text-xl bg-white px-2 py-1 rounded-sm font-medium border-2 border-black/70 border-dashed">
               Five-Star
             </p>
           </div>
@@ -92,7 +92,7 @@ const Vibe = () => {
         <p className="text-white text-center text-3xl font-semibold tracking-wide pb-4">
           Excuistite cuisine and impeccable service
         </p>
-        <button className="btn btn-outline btn-primary mt-6 mb-10">
+        <button className="btn btn-outline btn-secondary border-2 text-md mt-6 mb-10 active:bg-secondary active:text-white active:border-none transition-all">
           Contact Us
         </button>
       </div>

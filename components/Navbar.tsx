@@ -9,13 +9,13 @@ const Navbar = () => {
         <div>
           <Link
             href="/"
-            className="btn btn-ghost normal-case text-xl text-white"
+            className="btn btn-ghost normal-case font-bold text-xl text-secondary sm:text-white"
           >
             TastyBites
           </Link>
         </div>
 
-        <ul className="hidden md:flex gap-10">
+        <ul className="hidden sm:flex gap-6 md:gap-10">
           {NavbarLinks.map((link, index) => (
             <li key={index}>
               <Link
@@ -28,9 +28,9 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="btn btn-outline btn-white border-spacing-4 rounded-full px-7 tracking-wider hidden md:block">
+        <div className="border-2 border-white text-white font-semibold py-3 border-spacing-4 rounded-full px-7 tracking-wider hidden sm:block">
           123 456 789
-        </button>
+        </div>
         <NavbarButton />
       </div>
     </div>
